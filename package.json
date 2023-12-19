@@ -1,0 +1,46 @@
+{
+  "name": "music-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "prod": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honam867/music-converter.git"
+  },
+  "author": "Nam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honam867/music-converter/issues"
+  },
+  "homepage": "https://github.com/honam867/music-converter#readme",
+  "_moduleAliases": {
+    "@src": "src",
+    "@automation": "automation",
+    "@models": "src/models",
+    "@routes": "src/routes",
+    "@core": "src/core",
+    "@ott": "src/ott",
+    "@utils": "src/utils",
+    "@controllers": "src/controllers",
+    "@config": "config",
+    "@services": "src/services"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dnscache": "^1.0.2",
+    "express": "^4.18.2",
+    "gf-js": "^1.1.2",
+    "helmet": "^7.1.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.9.1",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.0.3"
+  }
+}
