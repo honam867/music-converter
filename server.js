@@ -14,6 +14,6 @@ const { initDB } = require("./src/init/db");
 
 (async function init() {
   const express = initExpress();
-  await initDB(express);
+  // await initDB(express);
   initRouter(express);
 })();
