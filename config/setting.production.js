@@ -8,4 +8,13 @@ const SERVER_CONFIG = {
   //     },
   //   },
 };
-module.exports = { SERVER_CONFIG };
+const DB = {
+  MAIN: "mongodb://localhost:27017/music_converter",
+  OPTIONS: {
+    // useNewUrlParser: true,
+    // useFindAndModify: false,
+    // useUnifiedTopology: true,
+    // useCreateIndex: true,
+  },
+};
+module.exports = { SERVER_CONFIG, DB };
